@@ -1,0 +1,9 @@
+{
+  "name": "m1li-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "M1li: عدّاد مشاهدات ولايكات ومتابعين مع حماية من الغش — بدون أي مكتبة خارجية",
+  "main": "server.js",
+  "engines": { "node": ">=22.13" },
+  "scripts": { "start": "node server.js", "test": "node --test test.js test-earn.js test-google.js test-publish.js test-update.js test-name.js test-admin.js test-mail.js" }
+}
